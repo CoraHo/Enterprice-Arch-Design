@@ -1,0 +1,19 @@
+
+
+
+    {
+      "type-tag": "PHYSIOTHERAPY",
+      "treatment-dates": [
+        "2023-02-10",
+        "2023-02-15"
+      ],
+      "id": "eb81856e-6047-4a0d-8376-9cfac3293283",
+      "patient-id": "7e1b94fb-9202-445b-94af-9d2f45d13eab",
+      "patient-name": "Bob Franco",
+      "provider-id": "fa82ff5a-c177-4c11-9fb8-e06637305108",
+      "provider-name": "Frist Priority Medical",
+      "diagnosis": "sport injuries",
+      "followup-treatments": [],
+
+      "addition info": "this is additional"
+    }

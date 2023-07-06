@@ -1,0 +1,17 @@
+
+
+
+    {
+      "type-tag": "RADIOLOGY",
+      "treatment-dates": [
+        "2023-02-10",
+        "2023-02-20"
+      ],
+      "id": "53af2bab-c3ad-468d-8d2b-611d3e705bbb",
+      "patient-id": "7e1b94fb-9202-445b-94af-9d2f45d13eab",
+      "patient-name": "Bob Franco",
+      "provider-id": "fa82ff5a-c177-4c11-9fb8-e06637305108",
+      "provider-name": "First Priority Medical",
+      "diagnosis": "breast cancer",
+      "followup-treatments": []
+    }
