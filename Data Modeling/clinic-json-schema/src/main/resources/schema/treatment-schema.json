@@ -1,0 +1,140 @@
+{
+	"$id": "https://cs548.stevens.edu/clinic/treatment",
+	"$schema": "https://json-schema.org/draft/2020-12/schema",
+	"description": "JSON Schema for treatments",
+	"oneOf" : [
+		{ "$ref" : "#/$defs/drug-treatment" },
+		{ "$ref" : "#/$defs/surgery"},
+		{
+			"anyOf": [
+				{ "$ref" : "#/$defs/radiology"},
+				{ "$ref" : "#/$defs/physiotherapy"}
+			]
+		}
+	],
+	"$defs": {
+		"base": {
+			"type": "object",
+			"properties": {
+				"type-tag": {
+					"enum": [ "SURGERY", "DRUGTREATMENT", "RADIOLOGY", "PHYSIOTHERAPY" ]
+				},
+				"id": {
+					"type": "string",
+					"format": "uuid"
+				},
+				"patient-id": {
+					"type": "string",
+					"format": "uuid"
+				},
+				"patient-name": {
+					"type": "string"
+				},
+				"provider-id": {
+					"type": "string",
+					"format": "uuid"
+				},
+				"provider-name": {
+					"type": "string"
+				},
+				"diagnosis": {
+					"type": "string"
+				},
+				"followup-treatments": {
+					"type" : "array",
+					"items" : { "$ref" : "#" }
+				}
+			},
+			"required": [
+				"id",
+				"type-tag",
+				"patient-id",
+				"patient-name",
+				"provider-id",
+				"provider-name",
+				"diagnosis",
+				"followup-treatments"
+			]
+		},
+		"drug-treatment": {
+			"allOf": [
+				{ "$ref" : "#/$defs/base" }
+			],
+			"properties": {
+				"drug": {
+					"type": "string"
+				},
+				"dosage": {
+					"type": "number"
+				},
+				"start-date": {
+					"type": "string",
+					"format": "date"
+				},
+				"end-date": {
+					"type": "string",
+					"format": "date"
+				},
+				"frequency": {
+					"type": "integer"
+				}
+			},
+			"required": [
+				"drug",
+				"dosage",
+				"start-date",
+				"end-date",
+				"frequency"
+			],
+			"unevaluatedProperties": false
+		},
+		"surgery": {
+			"allOf": [
+				{"$ref" : "#/$defs/base"}
+			],
+			"properties": {
+				"surgery-date": {
+					"type": "string",
+					"format": "date"
+				},
+				"discharge-instructions": {
+					"type": "string"
+				}
+			},
+			"required": ["surgery-date", "discharge-instructions"],
+			"unevaluatedProperties": false
+		},
+		"radiology": {
+			"allOf": [
+				{"$ref" : "#/$defs/base"}
+			],
+			"properties": {
+				"treatment-dates": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"format": "date"
+					}
+				}
+			},
+			"required": ["treatment-dates"],
+			"unevaluatedProperties": false
+		},
+		"physiotherapy": {
+			"allOf": [
+				{"$ref" : "#/$defs/base"}
+			],
+			"properties": {
+				"treatment-dates": {
+					"type": "array",
+					"items": {
+						"type": "string",
+						"format": "date"
+					}
+				}
+			},
+			"required": ["treatment-dates"],
+			"unevaluatedProperties": false
+		}
+	}
+}

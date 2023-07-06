@@ -1,0 +1,19 @@
+
+
+    {
+      "type-tag": "DRUGTREATMENT",
+      "drug": "acetaminophen",
+      "dosage": 10.0,
+      "start-date": "2023-02-04",
+      "end-date": "2023-02-11",
+      "frequency": 1,
+      "id": "a9d58037-cbe2-4a96-85af-9c0367a71892",
+      "patient-id": "7e1b94fb-9202-445b-94af-9d2f45d13eab",
+      "patient-name": "Bob Franco",
+      "provider-id": "fa82ff5a-c177-4c11-9fb8-e06637305108",
+      "provider-name": "First Priority Medical",
+      "diagnosis": "fever",
+      "followup-treatments": [],
+
+      "brand": "Pfizer"
+    }
