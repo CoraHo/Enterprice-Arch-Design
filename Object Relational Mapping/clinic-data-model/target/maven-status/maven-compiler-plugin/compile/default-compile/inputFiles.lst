@@ -1,0 +1,14 @@
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/RadiologyTreatment.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/Treatment.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/ITreatmentFactory.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/Provider.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/Patient.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/TreatmentFactory.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/DrugTreatment.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/SurgeryTreatment.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/ProviderFactory.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/main/App.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/IPatientFactory.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/IProviderFactory.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/PhysiotherapyTreatment.java
+/Users/cora/Desktop/CS548-ws/M3/GaiLi_Ho/Assignment-Code/clinic-data-model/src/main/java/edu/stevens/cs548/clinic/data/PatientFactory.java
