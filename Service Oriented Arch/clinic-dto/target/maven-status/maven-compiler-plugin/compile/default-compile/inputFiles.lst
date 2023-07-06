@@ -1,0 +1,14 @@
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/RadiologyTreatmentDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/TreatmentDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/SurgeryTreatmentDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/DateUtils.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/ProviderDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/GsonFactory.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/DrugTreatmentDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PatientDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/RuntimeTypeAdapterFactory.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/ProviderDtoFactory.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PatientDtoFactory.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/util/LocalDateSerializer.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/PhysiotherapyTreatmentDto.java
+/Users/cora/Desktop/CS548-ws/M4/Assignment-Code/clinic-dto/src/main/java/edu/stevens/cs548/clinic/service/dto/TreatmentDtoFactory.java
