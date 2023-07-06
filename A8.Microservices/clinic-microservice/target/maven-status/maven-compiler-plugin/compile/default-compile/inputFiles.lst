@@ -1,0 +1,6 @@
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/health/LivenessCheck.java
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/health/ReadinessCheck.java
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/rest/TreatmentExporter.java
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/rest/PatientMicroService.java
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/rest/AppConfig.java
+/Users/cora/Desktop/CS548-ws/M7.Microservices/A8/clinic-microservice/src/main/java/edu/stevens/cs548/clinic/micro/domain/rest/ProviderMicroService.java
